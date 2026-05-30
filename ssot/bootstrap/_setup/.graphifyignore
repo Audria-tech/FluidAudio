@@ -1,0 +1,25 @@
+Tests/
+Scripts/
+ThirdPartyLicenses/
+Documentation/
+*.png
+*.jpg
+*.md
+.swift-format
+.gitignore
+.gitattributes
+Package.swift
+FluidAudio.podspec
+CITATION.cff
+banner.png
+
+# Asset bundles
+Sources/FluidAudio/TTS/*/Assets/
+Sources/FluidAudio/TTS/CosyVoice3/Assets/
+Sources/FluidAudio/TTS/Kokoro/Assets/
+Sources/FluidAudio/TTS/Magpie/Assets/
+Sources/FluidAudio/TTS/PocketTTS/Assets/
+
+# Wrappers (vendor + single-call bridges)
+Sources/FastClusterWrapper/
+Sources/MachTaskSelfWrapper/
